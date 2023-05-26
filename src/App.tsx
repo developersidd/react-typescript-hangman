@@ -20,6 +20,9 @@ function App() {
       margin: "0 auto",
       alignItems: "center",
     }}>
+      <div style={{ fontSize: "20px", textAlign: "center" }}>
+        Win Lose
+      </div>
       <HangmanDrawing />
       <HangmanWord />
       <Keyboard />
