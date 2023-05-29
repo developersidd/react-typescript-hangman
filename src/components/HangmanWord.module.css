@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        font-size: 3rem !important;
+        gap: 1.2rem !important;
+    }
+}

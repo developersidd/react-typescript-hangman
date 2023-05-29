@@ -1,3 +1,4 @@
+import styles from "./HangmanWord.module.css";
 type HangmanWordProps = {
   wordToGuess: string,
   guessedLetters: string[],
@@ -15,7 +16,10 @@ const HangmanWord = ({ guessedLetters, reveal = false, wordToGuess }: HangmanWor
         gap: "2rem",
         fontSize: "6rem"
       }
-    }>
+      
+    }
+    className={styles.container}
+    >
 
       {wordToGuess.split("").map((letter, ind) => {
         return (
